@@ -1,0 +1,8 @@
+EXPORTS
+	SetMode
+	RegisterAllocConsoleCallback
+	RegisterWriteConsoleCallback
+	GetConsoleBuffer
+	ReleaseConsoleBuffer
+	StartTargetApp
+	ProcessMessage
