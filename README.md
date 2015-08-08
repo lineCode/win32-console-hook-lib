@@ -1,6 +1,6 @@
 # win32-console-hook-lib
 
-##### Background #####
+### Background ###
 
 We often interact with console applications with standard input, standard output and standard error, though it has a lot of drawbacks.
 
@@ -26,7 +26,7 @@ Win32 Console Hook Library is just here for you. With the library, it is easy to
  * Deal with those applications that use native Windows console APIs
  * Fix the "pipe delay" problem
 
-##### About the Library #####
+### About the Library ###
 
 To achieve the goals mentioned above, Win32 Console Hook Library uses the "API Hook" techniques. The first release is based on the Detours Express 1.5 from Microsoft Research, which has been included in the source code. So you don't have to download it elsewhere.
 
@@ -51,11 +51,11 @@ But it works for a list of functions that generate outputs:
 
 Win32 Console Hook Library is released under the terms of **GNU Lesser General Public License version 3 (LGPLv3)**. You're welcome to develop your own application with the library.
 
-##### Install #####
+### Install ###
 
 Git clone the latest code, and compile with Visual Studio. The project is based on Visual C++ 2008, but it's also available for later versions after a conversion.
 
-##### Demo Code #####
+### Demo Code ###
 
 A demo project called AutoPlink is also included in the source. It works with the plink.exe (from putty) and adds the "auto reconnect" feature to the original program. Unfortunately, because of the "pipe delay" problem, this goal is not likely to be achieved by reading redirected output.
 
